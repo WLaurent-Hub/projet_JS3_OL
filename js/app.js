@@ -187,8 +187,9 @@ for (var eachStation = 1; eachStation <= nombreStation; eachStation++) {
   stations.push(instanceStation);
 }
 
-console.log(stations)
+console.log(stations);
 
+// Création d'une liste de features
 var stationFeatures = [];
 
 for (var i = 0; i < stations.length; i++) {
@@ -219,6 +220,8 @@ for (var i = 0; i < stations.length; i++) {
   featureStation.setStyle(iconStyle);
   stationFeatures.push(featureStation);
 }
+
+console.log(stationFeatures);
 
 var stationLayerSource = new VectorSource({
   features: stationFeatures,

@@ -1,16 +1,28 @@
-# Projet JS3 avec Node.js
+# Basic JavaScript project with OpenLayers and NodeJS
 
-Ce readme montre comment `cloner` le projet et `installer` ses dépendances.
+## Presentation
 
-Cloner le projet.
+Simple project using the `OpenLayers` library and `NodeJS`: 
 
-    git clone https://github.com/WLaurent-Hub/projet_JS3_OL.git
+The aim of this project is to create a **dynamic map of the Paris metro system** :
 
-Installer les dépendances du projet.
+- Creation of an OpenStreetMap base map, centered on Paris
+- Add several layers : raster and polygon
+- Layer styling (color, size, etc.)
+- Display 10 random objects from database: **data/metro-paris.csv**
+- Display a popup for each object (name, line, lon, lat)
 
-    cd projet_JS3_OL
-    npm install
+## Run locally
 
-Ouvrir un serveur local pour visualiser le projet.
+1. Clone project
 
-    npm run dev
+    - git clone https://github.com/WLaurent-Hub/projet_JS3_OL.git
+
+2. Installing dependencies
+
+    - cd projet_JS3_OL
+    - npm install
+
+3. Open a local server
+
+    - npm run dev

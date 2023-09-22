@@ -16,7 +16,7 @@ The aim of this project is to create a **dynamic map of the Paris metro system**
 
 1. Clone project
 
-    - git clone https://github.com/WLaurent-Hub/projet_JS3_OL.git
+    - git clone https://github.com/WLaurent-Hub/openlayers_project.git
 
 2. Installing dependencies
 

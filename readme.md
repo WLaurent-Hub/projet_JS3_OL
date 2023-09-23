@@ -40,7 +40,7 @@ The project is based on the frameworks and development environments:
 
 2. Installing dependencies
 
-    - cd projet_JS3_OL
+    - cd openlayers_project
     - npm install
 
 3. Open a local server

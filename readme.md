@@ -2,7 +2,7 @@
 
 ## Presentation
 
-Simple project using the `OpenLayers` library and `NodeJS`: 
+Simple project using the [OpenLayers](https://openlayers.org/) library and [NodeJS](https://nodejs.org/en/docs): 
 
 The aim of this project is to create a **dynamic map of the Paris metro system** :
 
@@ -35,14 +35,20 @@ The project is based on the frameworks and development environments:
 ## Run locally
 
 1. Clone project
-
-    - git clone https://github.com/WLaurent-Hub/openlayers_project.git
+   
+```bash
+git clone https://github.com/WLaurent-Hub/openlayers_project.git
+```
 
 2. Installing dependencies
-
-    - cd openlayers_project
-    - npm install
+   
+```bash
+cd openlayers_project
+npm install
+```
 
 3. Open a local server
 
-    - npm run dev
+```bash
+npm run dev
+```

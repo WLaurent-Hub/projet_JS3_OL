@@ -37,7 +37,7 @@ The project is based on the frameworks and development environments:
 1. Clone project
    
 ```bash
-git clone https://github.com/WLaurent-Hub/openlayers_project.git
+git clone https://github.com/wulaurent/openlayers_project.git
 ```
 
 2. Installing dependencies
